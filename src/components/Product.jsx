@@ -1,3 +1,3 @@
 export default function Product() {
-  return <h3>This is Product component</h3>;
+  return <h1>This is Product</h1>;
 }
