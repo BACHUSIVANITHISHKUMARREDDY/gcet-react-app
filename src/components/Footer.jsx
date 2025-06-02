@@ -1,9 +1,4 @@
-import React from 'react'
-import "./Footer.css"
+import React from "react";
 export default function Footer() {
-  return (
-    <div className="App-Footer-Row">
-        Copyright. All rights reserved.
-    </div>
-  )
+  return <div> &copy; 2005. All rights Reserved.</div>;
 }
