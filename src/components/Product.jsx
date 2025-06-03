@@ -6,7 +6,7 @@ export default function Product() {
   const { user } = useContext(AppContext);
   const [products, setProducts] = useState([]);
   const fetchProducts = async () => {
-    const res = await axios.get("http://localhost:8080/products");
+    const res = await axios.get(`${import.meta.env.VITE_API_URL }/products`);
     setProducts(res.data);
   };
   useEffect(() => {
